@@ -2,6 +2,10 @@
     --color1:#F4511E;
 }
 
+@font-face {
+    font-family:Montesrrat ;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
 
 .mybgcolor{
     background-color: var(--color1) !important;
@@ -14,4 +18,8 @@
 nav{
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-family: Montesrrat;
+    font-size: 12px;
+    
 }
+
