@@ -1,0 +1,17 @@
+:root{
+    --color1:#F4511E;
+}
+
+
+.mybgcolor{
+    background-color: var(--color1) !important;
+}
+
+.nav-link{
+    color: #fff !important;
+}
+
+nav{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
