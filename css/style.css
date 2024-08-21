@@ -20,6 +20,34 @@ nav{
     letter-spacing: 3px;
     font-family: Montesrrat;
     font-size: 12px;
+   
+
     
 }
 
+
+.nav-item .active,.nav-link:hover{
+    background-color: white!important;
+    color: var(--color1)!important;
+}
+
+.navbar-toggler-icon{
+    background-image: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none!important;
+    background-color: lightgray;
+}
+
+
+.iconcolor{
+    color: var(--color1);
+}
+
+
+@media screen and (max-width : 767px){
+
+    .navbar-nav{
+        border-top:1px solid white;
+    }
+}

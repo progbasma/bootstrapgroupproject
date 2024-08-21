@@ -6,34 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap demo</title>
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="libs/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <!-- start navbar -->
-  <nav class="navbar navbar-expand-lg px-md-5 navbar-dark mybgcolor">
-    <div class="container-fluid px-md-5">
-      <a class="navbar-brand px-md-4" href="#">LOGO</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+  <nav class="navbar navbar-expand-md px-md-5 navbar-dark mybgcolor py-md-0">
+    <div class="container-fluid px-md-5 px-0">
+      <a class="navbar-brand px-md-4 px-3 py-3" href="#">LOGO</a>
+      <button class="navbar-toggler mx-3 border-0 pt-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon "><i class="fa-solid fa-bars text-secondary"></i></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
           <li class="nav-item">
-            <a class="nav-link active px-md-4" aria-current="page" href="#">About</a>
+            <a class="nav-link  px-md-4 px-3 py-3" aria-current="page" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-md-4" href="#">Services</a>
+            <a class="nav-link px-md-4 px-3 py-3" href="#">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-md-4" href="#">Portfolio</a>
+            <a class="nav-link px-md-4 px-3 py-3" href="#">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-md-4" href="#">Pricing</a>
+            <a class="nav-link px-md-4 px-3 py-3" href="#">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-md-4" href="#">Contact</a>
+            <a class="nav-link px-md-4 px-3 py-3" href="#">Contact</a>
           </li>
 
 
@@ -45,12 +46,77 @@
   
   <!-- start header -->
   <div class="container-fluid p-5 mybgcolor text-center text-white" >
-      <h1>Company</h1>
+      <h1 class="py-4">Company</h1>
       <p> We specialize in blablabla</p>
+
+      <section class="row py-4">
+        <div class="col-lg-3 col-sm-2  col-1">
+
+        </div>
+        <div class=" col-lg-6 col-sm-8 col-10">
+            <div class="input-group ">
+                <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text bg-danger text-white border-secondary" id="basic-addon2">Subscribe</span>
+            </div>
+        </div>
+       
+        <div class=" col-lg-3 col-sm-2 col-1">
+
+        </div>
+
+      </section>
+     
+
   </div>
 
   <!-- end header -->
 
+  <!--start div1-->
+  <div class="container-fluid" id="about" class="p-md-5 p-3">
+    <div class="row">
+        <div class="col-md-8 p-md-5">
+
+            <h1 class="py-3">About Company Page</h1>
+            <p class="py-3 fs-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             </p>
+            <p class="py-3 text-black-50"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+            </p>
+            <button class="btn btn-outline-secondary">Get In Touch</button>
+        </div>
+        <div class="col-md-4 p-md-5">
+
+            <i class="fa-solid fa-chart-simple fa-10x iconcolor "></i>
+        </div>
+
+    </div>
+
+  </div>
+  <!--end div1-->
+  
+  <!--start div2-->
+  <div class="container-fluid bg-light" id="about2" class="p-md-5 p-3">
+    <div class="row">
+        <div class="col-md-4 p-md-5">
+
+            <i class="fa-solid fa-earth-americas iconcolor fa-10x "></i>
+        </div>
+        <div class="col-md-8 p-md-5">
+
+            <h1 class="py-3">About Company Page</h1>
+            <p class="py-3 fs-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             </p>
+            <p class="py-3 text-black-50"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+            </p>
+            <button class="btn btn-outline-secondary">Get In Touch</button>
+        </div>
+       
+
+    </div>
+
+  </div>
+  <!--end div2-->
 
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
