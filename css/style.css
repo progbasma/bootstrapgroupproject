@@ -1,7 +1,9 @@
 :root{
     --color1:#F4511E;
 }
-
+body{
+    overflow-y: scroll;
+}
 @font-face {
     font-family:Montesrrat ;
     src: url(../fonts/Montserrat-VariableFont_wght.ttf);
@@ -9,6 +11,33 @@
 
 .mybgcolor{
     background-color: var(--color1) !important;
+}
+.mytextcolor{
+    color: white !important;
+}
+.mybtn
+{
+    background-color: var(--color1) !important;
+    color: white!important;
+    border: 1px solid var(--color1);
+
+}
+.myborder{
+    border: 1px solid var(--color1)!important;
+}
+.myborder:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px!important;
+}
+
+.mybtn:hover
+{
+    background-color:white!important;
+    color: var(--color1) !important;
+    border: 1px solid var(--color1);
+
+
+
 }
 
 .nav-link{
@@ -41,9 +70,37 @@ nav{
 
 
 .iconcolor{
-    color: var(--color1);
+    color: var(--color1)!important;
+}
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon{
+    filter: none;
+
+}
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 1;
+    
+}
+.carousel-dark .carousel-indicators [data-bs-target]
+{
+    background-color: white;
+    border: 2px solid var(--color1);
+}
+.carousel-dark .carousel-indicators [data-bs-target].active{
+    background-color: var(--color1);
+
 }
 
+.carousel-control-prev-icon,.carousel-control-next-icon
+{
+
+    background-image: none!important;
+}
 
 @media screen and (max-width : 767px){
 
