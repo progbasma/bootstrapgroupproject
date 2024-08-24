@@ -7,8 +7,12 @@
   <title>Bootstrap demo</title>
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="libs/fontawesome/css/all.min.css">
+
+
+  <link rel="stylesheet" href="libs/wow/animate.css">
+
   <link rel="stylesheet" href="css/style.css">
-  
+
 </head>
 
 <body data-bs-spy="scroll"  data-bs-target="#navbarSupportedContent" >
@@ -87,7 +91,7 @@
         </div>
         <div class="col-md-4 p-md-5">
 
-            <i class="fa-solid fa-chart-simple fa-10x iconcolor "></i>
+            <i class="fa-solid fa-chart-simple fa-10x iconcolor wow  bounceInUp"></i>
         </div>
 
     </div>
@@ -100,7 +104,7 @@
     <div class="row">
         <div class="col-md-4 p-md-5">
 
-            <i class="fa-solid fa-earth-americas iconcolor fa-10x "></i>
+            <i class="fa-solid fa-earth-americas iconcolor fa-10x  wow  bounceInUp" data-wow-duration="2s"></i>
         </div>
         <div class="col-md-8 p-md-5">
 
@@ -123,7 +127,7 @@
     <h1>SERVICES</h1>
     <p>What we offer</p>
 
-    <div class="row">
+    <div class="row wow  bounceInUp" data-wow-duration="2s">
 
       <div class="col-md-4 my-3">
         <i class="fa-solid fa-power-off iconcolor fa-3x"></i>
@@ -164,7 +168,7 @@
   <div id="portfolio" class="container-fluid p-md-5 p-3 bg-light text-center">
     <h1>Portfolio</h1>
     <p>What we have created   </p>
-    <div class="row ">
+    <div class="row wow  bounceInUp " data-wow-duration="2s">
       <div class="col-md-4 my-3">
         <div class="card border-0" >
           <img src="images/paris.jpg" class="card-img-top" alt="...">
@@ -254,7 +258,7 @@
     <h1>PRICING</h1>
     <p>Choose a payment plan that works for you</p>
 
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center py-3 py-md-5">
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center py-3 py-md-5 wow  bounceInUp" data-wow-duration="2s">
       <div class="col">
         <div class="card mb-4  shadow-sm myborder">
           <div class="card-header py-md-5 py-3 mybgcolor mytextcolor ">
@@ -325,7 +329,7 @@
       </div>
       <div class="col-md-6">
 
-        <form action="">
+        <form action="" class="wow  bounceInUp" data-wow-duration="2s">
           <div class="row mb-3">
             <div class="col"><input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
             </div>
@@ -353,6 +357,10 @@
 
 
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="libs/wow/wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
 </body>
 
 </html>
